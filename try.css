@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{    
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://assets.burberry.com/is/image/Burberryltd/DE5F2B9B-CD50-4C2D-A194-0B6DEB26AB13?wid=1366);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    background-image:rgba(0, 0, 0, 0.3);
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 15vh;    
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+/* need fix */
+nav ul li a:hover{
+    background: #5D8DB5;
+    color: #fff;
+    border-radius: 6px;
+    margin: 30px 30px;
+    padding: 10px;
+}
+/* need fix */
+
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 20px;
+    color: #fff;
+}
+.content{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #3a3c41, #5D8DB5);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.content .btn:hover{
+    background: linear-gradient(45deg, #5D8DB5, #5D8DB5);
+
+}
+.arrow-icons{
+    display: flex;
+    margin-top: 40px;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    right: 160px;
+    bottom: 0;
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left:-80px;
+    margin: 20px;
+
+    bottom: 180px;
+
+}
+.social-links a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.social-links a:hover{
+    color: #000;
+    font-size: 18px;
+    text-transform: lowercase;
+    border-radius: 6s;
+}
+
+
+
+
+
+
+
+
+
+
+                                                /* About */
+
+
+
+.About{
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin: 80px;
+}
+.About h6{
+    color: #401F0C;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 1;
+    margin-left: 40px;
+}
+.About h1{
+    color: #3a3c41;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.About p{
+    color: #000;
+    margin-left: 40px;
+    font-size: 20px;
+    letter-spacing: 1;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.btn-info{
+    text-decoration: none;
+    color: #fff;
+    background-color: #462714;
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 40px;
+
+}
+
+.About .info{
+    margin-right: 5%;
+    width: 50%;
+    float: left;
+}
+.About .form{
+    width: 45%;
+    float: right;
+}
+.About .form img{
+    width: 80%;
+    border-radius: 40px;
+}
+
+
+
+                                              /* Collections */
+
+.Collections{
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin: 80px;
+
+}
+.Collections h6{
+    color: #401F0C;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 1;
+    margin-left: 40px;
+}
+.Collections h1{
+    color: #3a3c41;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.Collections p{
+    color: #000;
+    margin-left: 40px;
+    font-size: 20px;
+    letter-spacing: 1;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.btn-info{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #3a3c41, #401F0C);
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 40px;
+
+}
+.btn-info:hover{
+    background: linear-gradient(45deg, #401F0C, #401F0C);
+
+    color: #fff;
+}
+.Collections .info-two{
+    margin-right: 5%;
+    width: 50%;
+    float: right ;
+}
+.Collections .form-two{
+    width: 45%;
+    float: left;
+}
+.Collections .form-two img{
+    width: 80%;
+    border-radius: 40px;
+
+}
+
+
+
+
+
+
+
+.table{
+    width:100%;
+    text-align: center;
+    position: relative;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0px;
+}
+.table td{
+    padding:20px;
+}
+
+.div1{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 2px ;
+    transition: 0.5s;
+}
+.div1 img{
+    width: 50%;
+    border-radius: 30px;
+    box-shadow: 0px 0px  ;
+    transition: 0.5s;
+}
+.div1 img:hover{
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 2px #3a3c41;
+    transition: 0.5s;
+}
+.div1:hover{
+    transform:scale(0.9);
+    box-shadow:0px 0px 5px 7px #401F0C;
+    transition: 0.3s;
+}
+.btn-i{
+    padding:5px 15px 5px 15px;
+    border-radius: 20px 4px 20px 4px;
+    border:none;
+    color:white;
+}
+ .btn-i{
+    background: linear-gradient(45deg, #3a3c41, #401F0C);
+
+ }
+ .btn-i:hover{
+    background-color:#401F0C;
+
+ }
+ .div1 p{
+    color: #2A395A;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+
+
+
+.now{
+    margin: 80px;
+}
+
+
+
+.contact-inf h2{
+    color: #462714;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.off{
+    color: #401F0C;
+    font-weight: 800;
+}
+.contact-inf p{
+    color: grey;
+    margin-left: 40px;
+    line-height: 1.7;
+    font-size: 20px;
+}
+.contact-inf p strong{
+    color: #2A395A;
+}
+.contact-inf{
+    margin-right: 5%;
+    width: 50%;
+    float: left;
+}
+.form{
+    width: 45%;
+    float: right;
+}
+.form label{
+    display: block;
+    color: #000;
+    margin: 10px 0;
+}
+.form input[type="text"] {
+    background-color: rgb(223, 222, 222);
+    color: #000;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    
+     
+}
+
+.form input[type="supmit"]{
+    background-color: rgb(223, 222, 222);
+    color: #000;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;
+}
+
+.btn{
+    margin: 20px;
+}
+.btn-form{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #3a3c41, #401F0C);
+    border-radius: 15px;
+    padding: 12px;
+}
+.btn-form:hover{
+    background: linear-gradient(45deg, #401F0C, #401F0C);
+
+}
